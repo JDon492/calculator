@@ -17,8 +17,8 @@ body {
 
 .calculator {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: minmax(120px, auto) repeat(5, 1fr);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 75px);
 }
 
 .display {
