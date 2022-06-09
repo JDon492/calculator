@@ -54,6 +54,8 @@ class Calculator {
         this.currentOperand = ""
     }
 
+    //Changes value to negative or positive 
+
     posiNegative() {
         if (this.currentOperand == "") return
         if (this.currentOperand.toString().includes("-")) {
