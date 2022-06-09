@@ -59,3 +59,21 @@ button {
 button:hover {
     background-color: #999999;
 }
+
+.footer { 
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a img {
+    height: 20px;
+    margin-left: 5px;
+    filter: invert(100%);
+}
